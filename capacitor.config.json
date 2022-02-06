@@ -1,0 +1,8 @@
+{
+  "appId": "com.BestFSJV.romain.salvan",
+  "appName": "BestFSJV",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

@@ -1,0 +1,46 @@
+<ion-app>
+  <ion-menu side="start">
+
+    <ion-header>
+      <ion-toolbar color="tertiary ">
+        <ion-title>
+          BestFSJV
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item  lines="full" (click)="goToMedias()" button>
+            <ion-icon name="checkmark-circle-outline" slot="start"></ion-icon>
+            Mes Médias
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item lines="full" (click)="goToRecommandations()" button>
+            <ion-icon name="thumbs-up"  slot="start"></ion-icon>
+            Mes Recommandations
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item lines="full" (click)="goToSettings()" button>
+            <ion-icon name="settings" slot="start"></ion-icon>
+            Réglages
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item lines="full" (click)="onLogout()" button>
+            <ion-icon name="exit" slot="start"></ion-icon>
+            Deconnexion
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+
+  </ion-menu>
+
+
+  <ion-router-outlet main></ion-router-outlet>
+
+</ion-app>

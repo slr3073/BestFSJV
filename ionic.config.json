@@ -1,0 +1,7 @@
+{
+  "name": "BestFSJV",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
